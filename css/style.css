@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+header{
+	width: 100%;
+	float:left;
+	background: #f6f9f9;
+	padding: 26px 0px;
+}
+
+.logo{
+	width: 40%;
+	float: left;
+}
+
+.menu{
+	width: 60%;
+	float: left;
+}
+
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	text-align: center;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 10px 30px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.banner {
+	background: url(../image/banner.jpeg);
+	width: 100%;
+	background-size: cover;
+	float: left;
+	padding: 25px 0px;
+
+}
+
+
+.banner-main{
+	padding-top:175px ;
+	width: 60%;
+	margin:0px auto;
+	text-align: center;
+}
+
+.banner-main h2{
+
+	font-size:105px;
+	color: white;
+	font-weight:bold;
+}
+
+.banner-main span{
+	border-bottom: 2px solid #2196f2;
+	width: 80%;
+	margin: 30px auto;
+	display: block;
+}
+
+.banner-main p{
+	margin: 30px auto;
+	color: white;
+	text-align: center;
+}
+
+.banner-btn{
+	padding: 20px 25px; 
+	color: white;
+	text-transform: uppercase;
+	background: transparent;
+    border: 1px solid #2196f2;
+}
+
+.banner-icon{
+	margin: 120px 0px 20px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.about{
+	width: 100%;
+	float: left;
+	background: #f6f9f9;
+	padding: 75px 0px;
+}
+
+.about-content{
+	padding-bottom: 25px;
+	text-align: center;
+	width: 84%;
+	margin: 0px auto;
+
+}
+
+.about-content h2{
+	font-size: 40px;
+	color: #2d3950;
+	margin-bottom: 20px;
+}
+
+.about-content p{
+	font-size: 18px;
+	color: #a7a8a8;
+}
+
+.feature{
+	width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.feature-content {
+	text-align: center;
+    width: 33%;
+    float: left;
+}
+
+.feature-icon{
+ 	width: 88px;
+    height: 85px;
+    line-height: 83px;
+    background: #48baff;
+    color: white;
+    text-align: center;
+    font-size: 39px;
+    margin: 0 auto;
+    display: block;
+}
+
+.fa.fa-mobile{
+	font-size: 50px;
+    line-height: 84px;
+}
+
+.feature-icon i{
+
+}
+
+.feature-content h2{
+	margin: 25px 0px;
+}
+
+.feature-content p{
+	padding: 0px 21px;
+    color: #999999;
+    font-size: 16px;
+}
+
+.portfolio{
+	width: 100%;
+    float: left;
+    padding: 70px 0px;
+    background: #f6f9f9;
+}
+
+.portfolio-content{
+	text-align: center;
+}
+
+.portfolio-content h2{
+	font-size: 35px;
+    margin-bottom: 16px;
+}
+
+.portfolio-content p{
+	margin-bottom: 68px;
+}
+
+.portfolio-main {
+	width: 30%;
+    float: left;
+    margin: 10px 15px;
+}
+
+.portfolio-main img{
+	width: 100%;
+}
+
+.contact {
+	width: 100%;
+    float: left;
+    background: url(../image/contact.jpeg) no-repeat;
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+.contact-text{
+	text-align: center;
+    padding: 15px;
+}
+
+.contact-text h2{
+	color: white;
+    margin: 12px 0px;
+    font-size: 40px;
+}
+
+.contact-text p{
+	font-size: 16px;
+    margin-bottom: 40px;
+    color: #6e7278;
+}
+
+.form-control{
+	text-align: center;
+}
+
+.form-control-one{
+	border: 1px solid #999999;
+    background: transparent;
+    padding: 10px 24px;
+    width: 46%;
+    margin: 5px auto;
+    text-transform: capitalize;
+}
+.form-control textarea{
+	border: 1px solid #999999;
+    background: transparent;
+    color: #999999;
+    text-transform: capitalize;
+    margin: 10px auto;
+    padding: 10px;
+    width: 49%;
+    display: block;
+    height: 119px;
+}
+
+.form-control button{
+	border: 1px solid #15a4fa;
+    background: transparent;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 35px;
+    margin: 35px auto;
+    display: block;
+}
+
+footer{
+	width: 100%;
+    background: #f6f9f9;
+    padding: 30px 0px;
+}
+
+.footer-content{
+	width: 40%;
+    float: left;
+    margin: 18px auto;
+    padding: 16px 0px;
+}
+
+.footer-content p{
+	text-align: center;
+    color: #999999;
+}
+
+.footer-icon{
+	width: 60%;
+    float: right;
+    padding: 15px 0px;
+}
+
+.footer-icon ul{
+	list-style: none;
+    text-align: center;
+}
+
+.footer-icon ul li{
+	display: inline-block;
+    margin: 10px 5px;
+}
+
+.footer-icon ul li a{
+
+}
+
+.footer-icon ul li a i{
+	background: #15a4fa;
+    color: #ffffff;
+    padding: 9px 12px;
+}
